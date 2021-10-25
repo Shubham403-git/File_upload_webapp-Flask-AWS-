@@ -30,8 +30,8 @@ def allowed_file(filename):
 def uploads(filename):
     #ACCESS_KEY = os.environ['ACCESS_KEY']
     #SECRET_KEY = os.environ['SECRET_KEY']
-    ACCESS_KEY = "AKIAU6X3MVRESQUACKVE"
-    SECRET_KEY= "K4Dh70fQSPADPvQeudOE2CT2voLZVz0yWFCRkUfd"
+    ACCESS_KEY = "your_access_key"
+    SECRET_KEY= "Put_secret_key_here"
 
     s3 = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
                       aws_secret_access_key=SECRET_KEY)
